@@ -1,0 +1,89 @@
+h1{
+    color:rgb(2, 131, 237);
+    margin-left: 20px;
+    border: solid;
+    padding: 10px;
+}
+h2{
+    color:darkcyan;
+}
+p{
+    color:rgb(107, 202, 107);
+}
+a{
+    color:dodgerblue;
+    margin-right: 20px;
+}
+h3{
+    color: blueviolet;
+}
+.header{
+    /*background-color: rgb(49, 2, 237);*/
+    background-color: #3102ed;
+    display:flex;
+    justify-content:space-between;  
+    border-style: inset;
+    border-radius: 15px;
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2,p{
+    text-align: center;
+}
+.name{
+    background-color: black;
+    text-align: center;
+}
+.projects{
+    text-align: center;
+    background-color: rgb(4, 25, 53);
+}
+.photo{
+    display:flex;
+    justify-content: center ;
+}
+body{
+    /*background-color: rgb(157, 193, 250);*/
+    /*background-color: #9dc1fa;*/
+    background-image: url("burjkhalifa3.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 1.20;
+    border-style: double dashed;
+    border-color: whitesmoke;
+    border-width: 4px;
+}
+.menu{
+    margin-top: 40px;
+}
+a:link{
+    color: deepskyblue;
+}
+a:visited{
+    color: rgb(135, 214, 245);
+}
+.menu:hover a{
+    color: rgb(2, 131, 237);
+}
+.item{
+   position: relative;
+}
+.item p{
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+    color: rgb(79, 233, 105);
+}
+.item:hover img{
+    opacity:0.5
+}
